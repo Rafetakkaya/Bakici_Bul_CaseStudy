@@ -34,3 +34,15 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+<!-- YAPILANLAR VE YAPILACAKLAR -->
+
+<!-- consume edile api service dosyasında .env den çekilerek fetch edildi -->
+<!-- .env .gitignore ye eklendi(sebebi ise header,bearer token ve cokie yerleşmesi gerekler için credential:true için) -->
+
+<!-- TODOS
+
+contenler paragraf başlık ve benzeri textler için bir constant oluşturulup orada arrar ya da objeler halinde tutulmalı (ürünün bakımını,yeni eklemelerini ve dil seceneği acısından önemli gender,location gibi static paragraflar-apiden gelenler haric) -->
+
+<!-- Ürünün filtreleme alanları Separation of concerns(kaygıların ayrılması) acısından daha küçük componentlere ayrılması gerekli ve consume edilen apinin bilgileri ya da diğer dil, paragraf seçenekleri için merkezi state kullanımı açısından redux vb state management packageler kullanılmalı -->
